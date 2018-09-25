@@ -19,5 +19,7 @@ print(move(100, 100, 60, math.pi / 6))
 # 请定义一个函数quadratic(a, b, c)，接收3个参数，返回一元二次方程：
 # ax2 + bx + c = 0
 # 的两个解。
+def quadratic(a, b, c):
+    d = b*b - 4*a*c
 
-
+    
